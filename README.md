@@ -43,3 +43,36 @@ By the end of this course, you'll be fluent in programming and ready to build an
 Sign up today and start your journey to becoming a web development pro!
 
 This condensed version highlights the key points of the original content while making it more concise and easier to read.
+
+## Tools
+- Front-End Web Development
+- HTML 5
+- CSS 3
+- Flexbox
+- Grid
+- Bootstrap 5
+- Javascript ES6
+- DOM Manipulation
+- jQuery
+- Bash Command Line
+- Git, GitHub and Version Control
+- Backend Web Development
+- Node.js
+- NPM
+- Express.js
+- EJS
+- REST
+- APIs
+- Databases
+- SQL
+- PostgreSQL
+- Authentication
+- Firebase
+- React.js
+- React Hooks
+- Web Design
+- Deployment with GitHub Pages
+- Web3 Development on the Internet Computer
+- Blockchain technology
+- Token contract development
+- NFT minting, buying and selling logic
