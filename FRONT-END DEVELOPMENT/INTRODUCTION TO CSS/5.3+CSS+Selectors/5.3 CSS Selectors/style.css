@@ -5,3 +5,15 @@ ol {
 }
 
 /* Write your CSS below, don't change the rules above. */
+body{
+  text-align: center;
+}
+p{
+  color:red;
+}
+#id-selector-demo{
+  color:green;
+}
+li[value="4"] {
+  color: blue;
+}
