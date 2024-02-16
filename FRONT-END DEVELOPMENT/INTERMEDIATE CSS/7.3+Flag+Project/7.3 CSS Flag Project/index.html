@@ -6,7 +6,46 @@
   <title>CSS Flag Project</title>
   <style>
     /* Write your CSS Code here */
-    
+      body{
+      background-color: black;
+    }
+    .flag{
+      text-align: center;
+      background-color: rgb(206, 17, 38);
+      height: 600px;
+      width: 900px;
+      border: 5px solid white;
+      position: relative;
+      margin-left: 300px;
+      margin-top: 100px;
+    }
+    .flag > div{
+      background-color:rgb(0, 40, 104);
+      position: absolute;
+      margin-top:50px;
+      height: 300px;
+      width: 100%;
+    }
+    .flag > div > div{
+      background-color:white;
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      position: absolute;
+      top: 50px;
+      left: 350px;
+    }
+    p {
+      font-size: 5rem;
+      color: white;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    .flag>div div p {
+      color: black;
+    }
   </style>
 </head>
 
