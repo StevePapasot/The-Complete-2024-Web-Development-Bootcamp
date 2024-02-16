@@ -1,0 +1,19 @@
+img{
+    width:200px;
+    height:200px;
+}
+#red{
+    color:red;
+}
+#blue{
+    color:rgb(4, 173, 229);
+}
+#orange{
+    color:orange;
+}
+#green{
+    color:green;
+}
+#yellow{
+    color:yellow;
+}
