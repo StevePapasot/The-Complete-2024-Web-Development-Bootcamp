@@ -1,0 +1,16 @@
+*{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+img{
+    border: 5px solid white;
+    margin-top: 50px;
+}
+h1{
+    font-size:3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: "Libre Baskerville", serif;
+}
