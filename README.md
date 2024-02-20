@@ -12,7 +12,7 @@ Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, N
 ✅ Master backend development with Node
 ✅ Learn professional developer best practices.
 
-*** USEFULL WEBSITES: 
+### USEFULL WEBSITES: 
 1. https://developer.mozilla.org/en-US/
 2. https://loremipsum.io/
 
