@@ -75,3 +75,28 @@ function isLeap(year) {
     /**************Don't change the code below****************/    
     
     }
+
+// Working With JavaScript ARRAYS
+var guestName = ["John", "Angela", "Steve", "Julia", "Romeo", "Nick"];
+var included = prompt("What is your name?");
+if (guestName.includes(included)){
+    alert("Welcome!");
+}else{
+    alert("Sorry, maybe next time!");
+}
+
+//FizzBuzz Exercise.
+function fizzBuzz(){
+    if (count % 3 === 0 && count % 5 === 0){
+    output.push("FizzBuzz");
+    }else if(count % 3 === 0){
+        output.push("Fizz");
+    }
+    else if(count % 5 === 0){
+        output.push("Buzz");
+    }else{
+        output.push(count);
+    }
+}
+
+count++
