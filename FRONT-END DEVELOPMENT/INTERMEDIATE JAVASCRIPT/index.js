@@ -80,13 +80,18 @@ function isLeap(year) {
 var guestName = ["John", "Angela", "Steve", "Julia", "Romeo", "Nick"];
 var included = prompt("What is your name?");
 if (guestName.includes(included)){
+
+
     alert("Welcome!");
 }else{
     alert("Sorry, maybe next time!");
 }
 
 //FizzBuzz Exercise.
+var output = [];
+var count = 1;
 function fizzBuzz(){
+    while(count <= 100){
     if (count % 3 === 0 && count % 5 === 0){
     output.push("FizzBuzz");
     }else if(count % 3 === 0){
@@ -98,9 +103,8 @@ function fizzBuzz(){
         output.push(count);
     }
 }
-
 count++
-
+}
 //You are going to write a function which will select a random name from a list of names. The person selected will have to pay for everybody's food bill.
 var names = ["John", "Maria", "Steve", "Angela", "Kate", "Katia"];
 function whosPaying(names){
@@ -110,3 +114,6 @@ function whosPaying(names){
 }
 var output = whosPaying(names);
 console.log(output);
+
+//Control Statement: While
+
