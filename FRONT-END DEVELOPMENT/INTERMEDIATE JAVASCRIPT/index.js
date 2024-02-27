@@ -100,3 +100,13 @@ function fizzBuzz(){
 }
 
 count++
+
+//You are going to write a function which will select a random name from a list of names. The person selected will have to pay for everybody's food bill.
+var names = ["John", "Maria", "Steve", "Angela", "Kate", "Katia"];
+function whosPaying(names){
+    var randomNamePosition = Math.floor(Math.random()*names.length);
+    var selectedName  = names[randomNamePosition];
+    return `${selectedName} is going to buy lunch today!`;
+}
+var output = whosPaying(names);
+console.log(output);
