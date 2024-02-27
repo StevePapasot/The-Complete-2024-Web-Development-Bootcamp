@@ -32,3 +32,19 @@ if (calcPers > 70){
 }else{
     alert("Your love score is " + calcPers + "%. That's not very good at all!");
 }
+
+
+//BMI Calculator Exercise
+function bmiCalculator (weight, height) {
+    var bmi = weight/(height*height);
+    if(bmi < 18.9){
+    console.log("Your BMI is "+bmi+" ,so you are underweight");    
+    } 
+    if(bmi => 18.9 && bmi< 24.9){
+    console.log("Your BMI is "+bmi+" ,so you have normal weight");    
+    } 
+     if(bmi=> 24.9){
+    console.log("Your BMI is "+bmi+" ,so you are overweight");    
+    } 
+    return bmi;
+}
