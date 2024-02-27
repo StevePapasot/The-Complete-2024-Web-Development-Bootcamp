@@ -105,6 +105,7 @@ function fizzBuzz(){
 }
 count++
 }
+
 //You are going to write a function which will select a random name from a list of names. The person selected will have to pay for everybody's food bill.
 var names = ["John", "Maria", "Steve", "Angela", "Kate", "Katia"];
 function whosPaying(names){
@@ -116,4 +117,15 @@ var output = whosPaying(names);
 console.log(output);
 
 //Control Statement: While
-
+var numberOfBottles = 99
+while (numberOfBottles >= 0) {
+    var bottleWord = "bottle";
+    if (numberOfBottles === 1) {
+        bottleWord = "bottles";
+    } 
+    console.log(numberOfBottles + " " + bottleWord + " of beer on the wall");
+    console.log(numberOfBottles + " " + bottleWord + " of beer,");
+    console.log("Take one down, pass it around,");
+	numberOfBottles--;
+    console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
+}
