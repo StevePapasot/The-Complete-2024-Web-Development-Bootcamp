@@ -1,1 +1,2 @@
-$("h1").css("color","red");
+//Manipulate Attributes
+$("a").attr("href","http://www.yahoo.com");
