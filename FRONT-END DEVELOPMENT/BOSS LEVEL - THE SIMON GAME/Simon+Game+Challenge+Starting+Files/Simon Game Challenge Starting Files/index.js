@@ -1,6 +1,6 @@
 let buttonColors = ["red","blue","green","yellow"];
 let gamePattern = [];
-let userClickedPattern = []; 
+let userClickedPattern = [];
 let started = false;
 let level = 0;
 
