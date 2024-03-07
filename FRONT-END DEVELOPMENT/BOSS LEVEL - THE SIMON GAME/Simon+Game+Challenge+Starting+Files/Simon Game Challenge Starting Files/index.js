@@ -14,8 +14,10 @@ function nextSequence(){
     console.log(randomChosenColor);
 
     $("#" + randomChosenColor).animate({opacity: '1'},{duration: 2650});
-    let audio = new Audio("sounds/" + randomNumber + ".mp3");
-    audio.play();
 }
 nextSequence()
 
+function playSound(name){
+    let audio = new Audio("sounds/" + randomNumber + ".mp3");
+    audio.play();
+}
