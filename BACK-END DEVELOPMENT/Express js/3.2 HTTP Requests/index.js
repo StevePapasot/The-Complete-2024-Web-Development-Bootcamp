@@ -1,3 +1,12 @@
+/* REQUEST VOCAB:
+GET-> Request a resource from the server. Getting something from the server
+POST-> Send a resource to the server.
+PUT-> Replace a resource to the server.    } UPDATE
+PATCH-> Patch up a resource to the server. } UPDATE
+DELETE-> 
+*/
+
+
 import express from "express";
 const app = express();
 const port = 3000;
