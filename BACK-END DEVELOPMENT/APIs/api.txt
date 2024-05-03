@@ -1,0 +1,2 @@
+APIs helps us to make multiple programs communicate with each other. We 'talk' to a server that has a specific function and we want to embeded it to our program.
+ APIs work like the middle-man. Our program sends a GET request to that server and takes a Response back. THE MOST POPULAR API IS REST:API.
