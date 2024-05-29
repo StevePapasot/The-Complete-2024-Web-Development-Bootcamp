@@ -2,3 +2,7 @@ APIs helps us to make multiple programs communicate with each other. We 'talk' t
  APIs work like the middle-man. Our program sends a GET request to that server and takes a Response back. THE MOST POPULAR API IS REST:API.
 
 POSTMAN Platform: https://web.postman.co/home
+
+STRUCTURING API REQUESTS
+1. API ENDPOINTS
+BaseURL/Endpoint
