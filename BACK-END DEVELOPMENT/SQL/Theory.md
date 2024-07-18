@@ -1,2 +1,2 @@
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](image.png) /CTRL + CLICK
+![alt text](image-1.png) /CTRL + CLICK
