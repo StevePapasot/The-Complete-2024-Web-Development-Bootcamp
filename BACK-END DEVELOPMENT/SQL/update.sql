@@ -7,8 +7,8 @@ CREATE TABLE products (
   	PRIMARY KEY(id)
 )
 
-INSERT INTo products (id, name,price) VALUES(1, "Pen", 1,20)
-INSERT INTo products (id, name) VALUES(1, "Rubber")
+INSERT INTO products (id, name,price) VALUES(1, "Pen", 1,20)
+INSERT INTO products (id, name) VALUES(1, "Rubber")
 
 UPDATE products SET price = 0.80 WHERE id=2 --We update what we want BUT we want to target the specific thing we want to UPDATE or else everything with the same name will change.
 -- Update the table by adding one more column. ALTER TABLE command
